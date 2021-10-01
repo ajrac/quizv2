@@ -71,6 +71,7 @@ function App() {
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
+          <button><a href="https://ajrac.github.io/quizv2/">Try Again</a></button>
 				</div>
 			) : (
 				<>
